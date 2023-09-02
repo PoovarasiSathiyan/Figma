@@ -217,9 +217,172 @@ ul,li{
 
 /* section1 end */
 
+/* Section2 start */
+
+.topselling {
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 18px;
+    color:#4B40C5;
+   }
+   .destination{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #14183E;
+   }
+   .img1
+   {
+    width:417px;
+    Height:607px;
+    left:21px;
+    border-radius: 31px; 
+     
+  }
+  .img2
+  {
+   width:417px;
+   Height:607px;
+   left:21px;
+   border-radius: 31px;
+  }
+  .img3
+  {
+   width:417px;
+   Height:607px;
+   left:21px;
+   border-radius: 31px;;
+  }
+  
+  .card{
+    position: relative;
+  }
+  .rectimg1{
+    position: absolute;
+    left:114px;
+    width: 320px;
+    height: 124px;
+    top:312px;
+  }
+  .rectimg2{
+    position: absolute;
+    left:589px;
+    width: 277px;
+    height: 124px;
+    top:312px;
+  }
+  .rectimg3{
+    position: absolute;
+    right: 125px;
+    width: 312px;
+    height: 124px;
+    top:312px;
+  }
+  .rome{
+    position: absolute;
+    left:130px;
+    top:312px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #5e6282;
+  }
+  .amnt1{
+    position: absolute;
+    left:324px;
+    top:312px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #5e6282;
+  }
+  .days1{
+    position: absolute;
+    left:155px;
+    top:360px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #5e6282;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .london{
+    position: absolute;
+    left:605px;
+    top:312px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #5e6282;
+  }
+  .amnt2{
+    position: absolute;
+    left:760px;
+    top:312px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #5e6282;
+  }
+  .days2{
+    position: absolute;
+    left:625px;
+    top:360px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #5e6282;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .europe{
+    position: absolute;
+    right:330px;
+    top:312px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #5e6282;
+  }
+  .amnt3{
+    position: absolute;
+    right:165px;
+    top:312px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #5e6282;
+  }
+  .days3{
+    position: absolute;
+    right:295px;
+    top:360px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #5e6282;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .days1::before{
+  content:url("./Images/Vector.svg");
+  position: absolute;
+  left:-25px;
+  }
+  .days2::before{
+    content:url("./Images/Vector.svg");
+    position: absolute;
+    left:-25px;
+    }
+    .days3::before{
+      content:url("./Images/Vector.svg");
+      position: absolute;
+      left:-25px;;
+    }
+  
+
+
+/* section2 end */
 
 
 
+
+
+/* Section3 */
 .head2{
     margin-top: -10px;
     color: #14183E;
@@ -439,3 +602,4 @@ ul,li{
     height: 10px;
     width: 10px;
 }
+/* Section3 end */
