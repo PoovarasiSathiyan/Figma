@@ -261,28 +261,28 @@ ul,li{
   }
   .rectimg1{
     position: absolute;
-    left:114px;
-    width: 320px;
+    left:52px;
+    width: 322px;
     height: 124px;
     top:312px;
   }
   .rectimg2{
     position: absolute;
-    left:589px;
+    left:528px;
     width: 277px;
     height: 124px;
     top:312px;
   }
   .rectimg3{
     position: absolute;
-    right: 125px;
-    width: 312px;
+    right: 63px;
+    width: 313px;
     height: 124px;
     top:312px;
   }
   .rome{
     position: absolute;
-    left:130px;
+    left:70px;
     top:312px;
     font-family: poppins;
     font-weight: 500;
@@ -290,7 +290,7 @@ ul,li{
   }
   .amnt1{
     position: absolute;
-    left:324px;
+    left:270px;
     top:312px;
     font-family: poppins;
     font-weight: 500;
@@ -298,7 +298,7 @@ ul,li{
   }
   .days1{
     position: absolute;
-    left:155px;
+    left:100px;
     top:360px;
     font-family: poppins;
     font-weight: 500;
@@ -308,7 +308,7 @@ ul,li{
   }
   .london{
     position: absolute;
-    left:605px;
+    left:542px;
     top:312px;
     font-family: poppins;
     font-weight: 500;
@@ -316,7 +316,7 @@ ul,li{
   }
   .amnt2{
     position: absolute;
-    left:760px;
+    left:718px;
     top:312px;
     font-family: poppins;
     font-weight: 500;
@@ -324,7 +324,7 @@ ul,li{
   }
   .days2{
     position: absolute;
-    left:625px;
+    left:570px;
     top:360px;
     font-family: poppins;
     font-weight: 500;
@@ -334,7 +334,7 @@ ul,li{
   }
   .europe{
     position: absolute;
-    right:330px;
+    right:275px;
     top:312px;
     font-family: poppins;
     font-weight: 500;
@@ -342,7 +342,7 @@ ul,li{
   }
   .amnt3{
     position: absolute;
-    right:165px;
+    right:90px;
     top:312px;
     font-family: poppins;
     font-weight: 500;
@@ -350,7 +350,7 @@ ul,li{
   }
   .days3{
     position: absolute;
-    right:295px;
+    right:230px;
     top:360px;
     font-family: poppins;
     font-weight: 500;
@@ -366,23 +366,17 @@ ul,li{
   .days2::before{
     content:url("./Images/Vector.svg");
     position: absolute;
-    left:-25px;
+    left:-30px;
     }
     .days3::before{
       content:url("./Images/Vector.svg");
       position: absolute;
-      left:-25px;;
+      left:-24px;;
     }
   
-
-
 /* section2 end */
 
-
-
-
-
-/* Section3 */
+/* Section3 start*/
 .head2{
     margin-top: -10px;
     color: #14183E;
@@ -603,3 +597,231 @@ ul,li{
     width: 10px;
 }
 /* Section3 end */
+
+/* section4 Start */
+
+.sec4{
+    display:flex;
+  }
+  .head h2{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    color:#7F2736;
+  }
+  .head span{
+    color:#2C2D32;
+    font-weight: 600;
+  }
+  .head p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 43px;
+    color:#2C2D32;
+  }
+  .sec4div1::before{
+    content: url(./Images/whitestar.svg);
+    margin-top:15px;
+    margin-left:150px;
+    position: absolute;
+    border-radius:100px;
+    background-color: #4B40C5;
+    padding:20px;
+  }
+  .sec4div2::before{
+    content:url(./Images/whiteworld.svg);
+    position: absolute;
+    margin-top:15px;
+    margin-left:150px;
+    background-color: #F0BB1F;
+    border-radius:100px;
+    padding:20px;
+  }
+  .sec4div3::before{
+    content:url(./Images/whitelike.svg);
+    position: absolute;
+    margin-top:15px;
+    margin-left:150px;
+    border-radius:100px;
+    padding:20px;
+    background-color: #F15A2B;
+  }
+  .sec4div1 .card1{
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 50px;
+  }
+  .sec4div1 .card1 h4{
+    font-family: poppins;
+    font-weight: 500;
+    font-size:25px;
+  }
+  .sec4div1 .card1 p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size:17px;
+  }
+  .sec4div2 .card2{
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 50px;
+  }
+  .sec4div2 .card2 h4{
+    font-family: poppins;
+    font-weight: 500;
+    font-size:25px;
+  }
+  .sec4div2 .card2 p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size:17px;
+  }
+  .sec4div3 .card3{
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 50px;
+  }
+  .sec4div3 .card3 h4{
+    font-family: poppins;
+    font-weight: 500;
+    font-size:25px;
+  }
+  .sec4div3 .card3 p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size:17px;
+  }
+
+  .rect41 ,.rect42 ,.rect43{
+    height:460px;
+    width:420px;
+  }
+.sec4{
+  justify-content: space-between;
+}
+
+/* section4 end */
+
+/* section5 start */
+.section5{
+  background-color: #eeebf7;
+  width: 1260px;
+  margin-left: 20px;
+}
+.section5::before{
+content:url(./Images/share.svg);
+margin-left:1210px;
+
+}
+.sec5div1{
+  font-family: poppins;
+  font-weight: 600;
+  font-size:28px;
+  line-height: 71px;
+  color:#5E6282;
+}
+.sec5div2{
+  display: flex;
+}
+.sec5div2 p{
+  position: absolute;
+  margin-top:15px;
+  font-family: poppins;
+  font-weight:400;
+  font-size: 16px;
+  color: #39425D;
+  
+}
+.sec5rect{
+  margin-left:365px;
+  width:430px;
+}
+.sec5div2 p::before{
+  content: url(./Images/message.svg);
+  margin-left: 390px;
+  padding:10px;
+  
+}
+.btn5{
+  padding: 16px 38px;
+  border-radius: 12px;
+  font-family:'Poppins', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+  background-color:#FF946D;
+  margin-left: 30px;
+}
+
+/* section5 end */
+
+/* footer start */
+
+.footdiv1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  
+}
+.footdiv2{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color:#5E6282;
+  margin-top: 155px;
+}
+.footdiv3{
+  margin-top: 130px;
+  margin-left:-100px;
+}
+.footdiv3 thead{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align:left;
+}
+.footdiv3 tbody{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  color: #5E6282;
+}
+.footdiv4{
+  margin-top: 130px;
+}
+.footdiv4 p{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 18px;
+  color:#5E6282;
+}
+.footdiv5 p{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color:  #5E6282;
+  margin-top: 90px;
+}
+.table{
+  width:180%;
+  height:100%;
+}
+.googleplay{
+  width:35%;
+}
+.applestore{
+  width:35%;
+}
+.social{
+  width:60%;
+}
+
+
+/* footer end */
